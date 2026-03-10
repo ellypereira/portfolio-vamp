@@ -1,130 +1,265 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grazzielly • Portfólio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grazzielly Pereira | Portfólio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="bg-noite" aria-hidden="true"></div>
+  <header class="topbar">
+    <div class="container nav">
+      <a href="#inicio" class="logo">Grazzielly</a>
+      <nav class="nav-links">
+        <a href="#sobre">Sobre</a>
+        <a href="#skills">Skills</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
 
-    <header class="header">
-        <a class="brand" href="#top">🩸 <span>Grazzielly</span></a>
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="reveal show">
+          <div class="eyebrow">✨ Estudante de ADS • Front-End • Games</div>
+          <h1>Grazzielly <span class="highlight">Pereira</span></h1>
+          <p>
+            Desenvolvedora em formação com foco em <strong>Front-End</strong>, interfaces criativas e projetos autorais.
+            Gosto de transformar ideias em experiências visuais funcionais, unindo código, design e identidade.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#projetos">Ver projetos</a>
+            <a class="btn secondary" href="#contato">Entrar em contato</a>
+          </div>
+        </div>
 
-        <nav class="nav">
-            
-            <a href="#">Sobre</a>
-            <a href="#">Projetos</a>
-            <a href="#">Skills</a>
-            <a href="#">Contato</a>
+        <aside class="hero-card reveal">
+          <div class="portrait"></div>
+          <div class="quick-info">
+            <div class="quick-item"><span>Objetivo</span><strong>Estágio em tecnologia</strong></div>
+            <div class="quick-item"><span>Foco</span><strong>HTML, CSS, JavaScript, Python</strong></div>
+            <div class="quick-item"><span>Interesses</span><strong>Web, UI e Game Dev</strong></div>
+            <div class="quick-item"><span>Local</span><strong>São Paulo • SP</strong></div>
+          </div>
+        </aside>
+      </div>
+    </section>
 
-        </nav>
+    <section id="sobre">
+      <div class="container">
+        <div class="section-title reveal">
+          <h2>Sobre mim</h2>
+        </div>
 
-        <button class="manu-btn" aria-label="Abrir menu" aria-expanded="false">☰</button>
-    </header>
+        <div class="section-card about-grid reveal">
+          <div class="about-text">
+            <p>
+              Sou estudante de <strong>Análise e Desenvolvimento de Sistemas</strong> e venho construindo minha jornada na tecnologia por meio de projetos próprios,
+              estudos constantes e muita prática.
+            </p>
+            <p>
+              Tenho interesse especial em <strong>desenvolvimento Front-End</strong> e <strong>criação de jogos</strong>, porque gosto de unir lógica,
+              estética e experiência do usuário em algo real e funcional.
+            </p>
+            <p>
+              Meu objetivo agora é conquistar uma oportunidade de <strong>estágio</strong> para evoluir tecnicamente, ganhar experiência prática
+              e contribuir com criatividade, dedicação e vontade de aprender.
+            </p>
+          </div>
 
-    <main id="top">
-        <section class="hero">
-            <p class="tag">Front-end • Design • Ren’Py • Python</p>
-            <p class="subtitle">
-                Crio interfaces com estética dark e experiências jogáveis (Ren’Py e Python),
-                com foco em performance, cuidado visual e organização.
+          <div class="mini-cards">
+            <article class="mini-card">
+              <h3>O que eu gosto de criar</h3>
+              <p>Sites com identidade visual forte, interfaces modernas, ferramentas simples e jogos com atmosfera própria.</p>
+            </article>
+            <article class="mini-card">
+              <h3>Como eu aprendo</h3>
+              <p>Praticando em projetos pessoais, testando ideias novas e melhorando cada detalhe de estrutura, visual e código.</p>
+            </article>
+            <article class="mini-card">
+              <h3>Meu diferencial</h3>
+              <p>Combino lado técnico com criatividade visual, o que ajuda a criar experiências mais marcantes e bem cuidadas.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="container">
+        <div class="section-title reveal">
+          <h2>Skills</h2>
+         
+        </div>
+
+        <div class="section-card reveal">
+          <div class="skills-grid">
+            <div class="skill"><strong>HTML</strong><span>Estrutura semântica</span></div>
+            <div class="skill"><strong>CSS</strong><span>Layouts e responsividade</span></div>
+            <div class="skill"><strong>JavaScript</strong><span>Interações e lógica</span></div>
+            <div class="skill"><strong>Python</strong><span>Automações e jogos</span></div>
+            <div class="skill"><strong>Ren'Py</strong><span>Visual novels</span></div>
+            <div class="skill"><strong>UI Design</strong><span>Visual e identidade</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos">
+      <div class="container">
+        <div class="section-title reveal">
+          <h2>Projetos</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-cover" style="background-image: linear-gradient(135deg, rgba(80,16,112,.25), rgba(9,5,14,.6)), url('https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1000&q=80');"></div>
+            <div class="project-content">
+              <div class="tag-row">
+                <span class="tag">Ren'Py</span>
+                <span class="tag">Python</span>
+                <span class="tag">Narrativa</span>
+              </div>
+              <h3>Visual Novel Vampiresca</h3>
+              <p>Projeto focado em narrativa interativa, escolhas do jogador, ambientação dark e construção de experiência imersiva.</p>
+              <div class="project-actions">
+                <a href="#">Ver projeto</a>
+                <a href="https://github.com/ellypereira/Blog" target="_blank">GitHub</a>
+                <a href="https://bloodandsilencepage.netlify.app/" target="_blank">Blog</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-cover" style="background-image: linear-gradient(135deg, rgba(181,108,255,.15), rgba(9,5,14,.7)), url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1000&q=80');"></div>
+            <div class="project-content">
+              <div class="tag-row">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <h3>Rádio Kawaii</h3>
+              <p>Interface temática com identidade visual própria, proposta criativa e foco em experiência visual para entretenimento online.</p>
+              <div class="project-actions">
+                <a href="#">Ver projeto</a>
+                <a href="https://ellypereira.github.io/Projetos/radiokawaii/">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-cover" style="background-image: linear-gradient(135deg, rgba(124,231,255,.12), rgba(9,5,14,.7)), url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1000&q=80');"></div>
+            <div class="project-content">
+              <div class="tag-row">
+                <span class="tag">Python</span>
+                <span class="tag">Lógica</span>
+                <span class="tag">Game</span>
+              </div>
+              <h3>Jogo de Adivinhação</h3>
+              <p>Projeto simples para praticar lógica de programação, interação com usuário, estrutura de código e tomada de decisão.</p>
+              <div class="project-actions">
+                <a href="#">Ver projeto</a>
+                <a href="#">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-cover" style="background-image: linear-gradient(135deg, rgba(255,89,160,.12), rgba(9,5,14,.7)), url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1000&q=80');"></div>
+            <div class="project-content">
+              <div class="tag-row">
+                <span class="tag">Python</span>
+                <span class="tag">Ferramenta</span>
+                <span class="tag">Utilidade</span>
+              </div>
+              <h3>Gerador de Senhas</h3>
+              <p>Ferramenta feita para praticar manipulação de dados, geração aleatória e organização de funcionalidades úteis no dia a dia.</p>
+              <div class="project-actions">
+                <a href="#">Ver projeto</a>
+                <a href="#">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-cover" style="background-image: linear-gradient(135deg, rgba(255,195,0,.12), rgba(9,5,14,.7)), url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1000&q=80');"></div>
+            <div class="project-content">
+              <div class="tag-row">
+                <span class="tag">Python</span>
+                <span class="tag">Mini Game</span>
+                <span class="tag">Prática</span>
+              </div>
+              <h3>Pega Doces</h3>
+              <p>Mini jogo criado para praticar mecânicas básicas, eventos, pontuação e raciocínio voltado a experiências interativas.</p>
+              <div class="project-actions">
+                <a href="#">Ver projeto</a>
+                <a href="#">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-cover" style="background-image: linear-gradient(135deg, rgba(255,125,189,.12), rgba(9,5,14,.7)), url('https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&w=1000&q=80');"></div>
+            <div class="project-content">
+              <div class="tag-row">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">UI</span>
+              </div>
+              <h3>Site de Cosméticos Anime</h3>
+              <p>Landing page visualmente marcante, criada para exercitar composição estética, hierarquia visual e apresentação de produto.</p>
+              <div class="project-actions">
+                <a href="#">Ver projeto</a>
+                <a href="https://ellypereira.github.io/Projetos/meu-site-cosmeticos/">GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato">
+      <div class="container">
+        <div class="section-title reveal">
+          <h2>Contato</h2>
+          <p>Uma área simples, bonita e direta para recrutadores ou clientes saberem como falar com você.</p>
+        </div>
+
+        <div class="contact-card reveal">
+          <div>
+            <p style="color: var(--muted); line-height: 1.85;">
+              Estou em busca de oportunidade de estágio na área de tecnologia para continuar evoluindo como desenvolvedora,
+              ganhar experiência prática e contribuir com dedicação, criatividade e vontade de aprender.
             </p>
 
-            <div class="cta">
-                <a class="btn-primary" href="#projetos">Ver projetos</a>
-                <a class="btn ghost" href="#contato">Falar comigo</a>
+            <div class="contact-list">
+              <div class="contact-item"><strong>Email</strong>ellysouza960@gmail.com</div>
+              <div class="contact-item"><strong>LinkedIn</strong>Adicione aqui o link do seu perfil</div>
+              <div class="contact-item"><strong>GitHub</strong>Adicione aqui o link do seu GitHub</div>
             </div>
+          </div>
 
-            <div class="hero-card">
-                <div class="stat">
-                    <span class="num" data-count="12">6</span>
-                    <span class="label">Projetos</span>
-                </div>
-                <div class="stat">
-                    <span class="num" data-count="4">3</span>
-                    <span class="label">Anos estudando</span>
-                </div>
-                <div class="stat">
-                    <span class="num" data-count="100">70</span>
-                    <span class="label">% dedicação</span>
-                </div>
-            </div>
-        </section>
-
-        <section id="sobre" class="section">
-            <h2>Sobre</h2>
-            <p>...</p>
-        </section>
-
-        <section id="projetos" class="section">
-            <h2>Projetos</h2>
-
-        <div class="filters" aria-label="Filtros de projetos">
-            <button class="chip active" data-filter="all">Todos</button>
-            <button class="chip" data-filter="frontend">Front-end</button>
-            <button class="chip" data-filter="design">Design</button>
-            <button class="chip" data-filter="renpy">Ren’Py</button>
-            <button class="chip" data-filter="python">Python</button>
+          <aside class="contact-side">
+            <h3>Próximo passo</h3>
+            <p>
+              Agora você pode substituir as imagens, colocar links reais dos seus projetos e trocar o texto de cada card pelo que você já construiu.
+              Só isso já deixa seu portfólio com cara muito mais profissional.
+            </p>
+          </aside>
         </div>
+      </div>
+    </section>
+  </main>
 
-        <div class="grid" id="projectsGrid"></div>
-        </section>
+  <footer>
+    Feito por Grazzielly Pereira • Portfólio Front-End & Game Dev
+  </footer>
 
-        <!-- Modal -->
-        <div class="modal" id="projectModal" aria-hidden="true">
-        <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-            <button class="modal-close" id="modalClose" aria-label="Fechar">✕</button>
-
-            <h3 id="modalTitle"></h3>
-            <p id="modalDesc"></p>
-
-            <div class="chips" id="modalTags"></div>
-
-            <div class="modal-links" id="modalLinks"></div>
-            </div>
-        </div>
-
-        <section id="skills" class="section">
-            <h2>Skills</h2>
-            <ul class="skill-list">
-                <li><span>HTML semântico</span><em>°</em> estrutura e acessibilidade</li>
-                <li><span>class moderno</span><em>°</em> flex, grid, animações</li>
-                <li><span>JavaScript</span><em>°</em> DOM, eventos, fetch</li>
-            </ul>
-        </section>
-
-        <section id="contato" class="section">
-            <h2>Contato</h2>
-
-            <form class="form" id="contactForm">
-                <label>
-                    Nome
-                    <input type="text" name="name" placeholder="Seu nome" required>
-                </label>
-
-                <label>
-                    Email
-                    <input type="email" name="email" placeholder="voce@email.com" required>
-                </label>
-
-                <label>
-                    Mensagem
-                    <textarea name="message" rows="4" placeholder="Como posso te ajudar?" required></textarea>
-                </label>
-
-                <button class="btn primary" type="submit">Enviar</button>
-                <p class="form-hint" id="formHint" role="status" aria-live="polite"></p>
-            </form>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <p><span id="year"> Grazzielly ° Feito com 🩸 e café</span></p>
-    </footer>
-
-    <script src="script.js"></script>
-    
+  <script src="script.js"></script>
 </body>
 </html>
