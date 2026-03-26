@@ -212,14 +212,14 @@
       border-radius: 18px;
       background:
         linear-gradient(180deg, rgba(181,108,255,.2), rgba(7,5,10,.25)),
-        url('https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=900&q=80') center/cover;
+        url('/photo.png') center/cover;
       border: 1px solid rgba(255,255,255,0.07);
       margin-bottom: 18px;
       position: relative;
     }
 
     .portrait::before {
-      content: "Front-End • Games • Design";
+      content: "Back-End • Games • Design";
       position: absolute;
       left: 14px;
       bottom: 14px;
