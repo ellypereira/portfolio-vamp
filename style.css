@@ -212,7 +212,7 @@
       border-radius: 18px;
       background:
         linear-gradient(180deg, rgba(181,108,255,.2), rgba(7,5,10,.25)),
-        url('/photo.png') center/cover;
+        url('photo.png') center/cover;
       border: 1px solid rgba(255,255,255,0.07);
       margin-bottom: 18px;
       position: relative;
